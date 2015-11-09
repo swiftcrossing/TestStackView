@@ -55,6 +55,7 @@ extension ViewController : UITableViewDataSource {
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let viewCell = tableView.dequeueReusableCellWithIdentifier("ViewCell") as! ViewCell
+        viewCell.delegate = self
         
         if let dataObjectArray = dataObjectArray {
             viewCell.setContents(dataObjectArray[indexPath.row])

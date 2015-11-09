@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewCell: UITableViewCell {
+    var delegate: ViewCellDelegate?
+    
     private(set) var dataObject: DataObject
     
     @IBOutlet private weak var userImageView: UIImageView!
@@ -37,14 +39,22 @@ class ViewCell: UITableViewCell {
     
     @IBAction func pressedInfoButton(sender: AnyObject) {
         print("Pressed info button")
+        delegate?.pressedInfoButton(self)
     }
     
     @IBAction func pressedAction1Button(sender: AnyObject) {
         print("Pressed Action 1 button")
+        delegate?.pressedAction1Button(self)
     }
     
     @IBAction func pressedAction2Button(sender: AnyObject) {
         print("Pressed Action 2 button")
+        delegate?.pressedAction2Button(self)
     }
 }
 
+protocol ViewCellDelegate {
+    func pressedInfoButton(viewCell: ViewCell)
+    func pressedAction1Button(viewCell: ViewCell)
+    func pressedAction2Button(viewCell: ViewCell)
+}
