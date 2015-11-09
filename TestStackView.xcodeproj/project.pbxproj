@@ -14,6 +14,7 @@
 		5D87C74B1BF02ED200F8A21D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D87C7491BF02ED200F8A21D /* LaunchScreen.storyboard */; };
 		5D93FF541BF033B700811E00 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93FF531BF033B700811E00 /* ViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		5D93FF561BF0420E00811E00 /* DataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93FF551BF0420E00811E00 /* DataObject.swift */; settings = {ASSET_TAGS = (); }; };
+		5D93FF581BF049F800811E00 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93FF571BF049F800811E00 /* ViewModel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5D87C74C1BF02ED200F8A21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D93FF531BF033B700811E00 /* ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
 		5D93FF551BF0420E00811E00 /* DataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataObject.swift; sourceTree = "<group>"; };
+		5D93FF571BF049F800811E00 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				5D87C7401BF02ED200F8A21D /* AppDelegate.swift */,
 				5D87C7421BF02ED200F8A21D /* ViewController.swift */,
 				5D93FF531BF033B700811E00 /* ViewCell.swift */,
+				5D93FF571BF049F800811E00 /* ViewModel.swift */,
 				5D93FF551BF0420E00811E00 /* DataObject.swift */,
 				5D87C7441BF02ED200F8A21D /* Main.storyboard */,
 				5D87C7471BF02ED200F8A21D /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D93FF581BF049F800811E00 /* ViewModel.swift in Sources */,
 				5D93FF561BF0420E00811E00 /* DataObject.swift in Sources */,
 				5D93FF541BF033B700811E00 /* ViewCell.swift in Sources */,
 				5D87C7431BF02ED200F8A21D /* ViewController.swift in Sources */,
